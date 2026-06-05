@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Medical Assistant</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div class="chat-container">
+
+    <div class="chat-header">
+        <div class="bot-info">
+            <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
+                 class="bot-avatar">
+
+            <div>
+                <h4>AI Medical Assistant</h4>
+                <span>● Online</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="messageFormeight" class="chat-body">
+        <div class="bot-message">
+            <div class="bot-bubble">
+                👋 Hello! I'm your AI Medical Assistant.
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-footer">
+        <form id="messageArea">
+
+            <input
+                type="text"
+                id="text"
+                name="msg"
+                placeholder="Type your medical question..."
+                autocomplete="off"
+                required>
+
+            <button type="submit" class="send-btn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+
+        </form>
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
