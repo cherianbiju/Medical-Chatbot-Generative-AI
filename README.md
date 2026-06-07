@@ -1,4 +1,3 @@
-<img width="1898" height="886" alt="Screenshot 2026-06-07 233432" src="https://github.com/user-attachments/assets/052203a3-c198-46ed-b6c1-5ffb3f056453" />
 # Medical Chatbot — Generative AI
 
 An end-to-end AI-powered medical chatbot built using Retrieval Augmented Generation (RAG), deployed on AWS with a full CI/CD pipeline.
@@ -8,7 +7,7 @@ An end-to-end AI-powered medical chatbot built using Retrieval Augmented Generat
 ## Demo
 
 ### 📸 Screenshot
-![Chatbot Screenshot](screenshots/demo.png)
+<img width="1898" height="886" alt="Screenshot 2026-06-07 233432" src="https://github.com/user-attachments/assets/052203a3-c198-46ed-b6c1-5ffb3f056453" />
 
 ### 🎥 Video Demo
 [![Medical Chatbot Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
