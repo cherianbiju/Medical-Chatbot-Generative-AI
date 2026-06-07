@@ -9,19 +9,8 @@ An end-to-end AI-powered medical chatbot built using Retrieval Augmented Generat
 ### 📸 Screenshot
 <img width="1898" height="886" alt="Screenshot 2026-06-07 233432" src="https://github.com/user-attachments/assets/052203a3-c198-46ed-b6c1-5ffb3f056453" />
 
-### 🎥 Video Demo
+### 🎥 Video Demo (youtube!)
 [![Medical Chatbot Demo](https://img.youtube.com/vi/ma2xsZzR_Lw/0.jpg)](https://youtu.be/ma2xsZzR_Lw)
-
----
-
-## Architecture
-
-```
-User → Flask Web App → LangChain RAG Pipeline → Google Gemini LLM
-                              ↓
-                     Pinecone Vector DB
-                     (HuggingFace Embeddings)
-```
 
 ---
 
@@ -31,7 +20,7 @@ User → Flask Web App → LangChain RAG Pipeline → Google Gemini LLM
 |---|---|
 | Language | Python 3.11 |
 | Framework | Flask |
-| LLM | Google Gemini (`gemini-flash`) |
+| LLM | Google Gemini (`gemini-3-flash-preview`) |
 | Embeddings | HuggingFace `all-MiniLM-L6-v2` |
 | Vector Database | Pinecone |
 | RAG Framework | LangChain |
