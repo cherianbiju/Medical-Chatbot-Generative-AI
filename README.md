@@ -6,7 +6,6 @@ An end-to-end AI-powered medical chatbot built using Retrieval Augmented Generat
 
 ## Demo
 
-> Ask medical questions and get accurate answers based on a medical knowledge base.
 
 ![Chatbot Demo](screenshots/demo.png)
 
