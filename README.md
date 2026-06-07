@@ -6,8 +6,11 @@ An end-to-end AI-powered medical chatbot built using Retrieval Augmented Generat
 
 ## Demo
 
+### 📸 Screenshot
+![Chatbot Screenshot](screenshots/demo.png)
 
-![Chatbot Demo](screenshots/demo.png)
+### 🎥 Video Demo
+[![Medical Chatbot Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 ---
 
