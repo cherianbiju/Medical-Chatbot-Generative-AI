@@ -108,12 +108,12 @@ PINECONE_API_KEY=your_pinecone_api_key
 GOOGLE_API_KEY=your_google_api_key
 ```
 
-**F. Create Pinecone index and store embeddings:**
+**E. Create Pinecone index and store embeddings:**
 ```bash
 python store_index.py
 ```
 
-**G. Run the app:**
+**F. Run the app:**
 ```bash
 python app.py
 ```
