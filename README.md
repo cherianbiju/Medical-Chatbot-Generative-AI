@@ -1,10 +1,10 @@
-# Medical Chatbot — Generative AI
+# MEDICAL CHATBOT — Generative AI
 
 An end-to-end AI-powered medical chatbot built using Retrieval Augmented Generation (RAG), deployed on AWS with a full CI/CD pipeline.
 
 ---
 
-## Demo
+## 1. DEMO
 
 ### 📸 Screenshot
 <img width="1898" height="886" alt="Screenshot 2026-06-07 233432" src="https://github.com/user-attachments/assets/052203a3-c198-46ed-b6c1-5ffb3f056453" />
@@ -14,7 +14,7 @@ An end-to-end AI-powered medical chatbot built using Retrieval Augmented Generat
 
 ---
 
-## Tech Stack
+## 2. TECH STACK
 
 | Category | Technology |
 |---|---|
@@ -30,7 +30,7 @@ An end-to-end AI-powered medical chatbot built using Retrieval Augmented Generat
 
 ---
 
-## Features
+## 3. FEATURES
 
 - Ask any medical question and get concise, accurate answers
 - RAG pipeline retrieves relevant context from a medical book (PDF)
@@ -41,7 +41,7 @@ An end-to-end AI-powered medical chatbot built using Retrieval Augmented Generat
 
 ---
 
-## Project Structure
+## 4. PROJECT STRUCTURE
 
 ```
 Medical-Chatbot-Generative-AI/
@@ -72,7 +72,7 @@ Medical-Chatbot-Generative-AI/
 
 ---
 
-## Getting Started
+## 5. Getting Started
 
 ### Prerequisites
 
@@ -84,36 +84,36 @@ Medical-Chatbot-Generative-AI/
 
 ### Installation
 
-**1. Clone the repository:**
+**A. Clone the repository:**
 ```bash
 git clone https://github.com/cherianbiju/Medical-Chatbot-Generative-AI.git
 cd Medical-Chatbot-Generative-AI
 ```
 
-**2. Create a virtual environment:**
+**B. Create a virtual environment:**
 ```bash
 python -m venv .venv
 .venv\Scripts\activate  # Windows
 source .venv/bin/activate  # Linux/Mac
 ```
 
-**3. Install dependencies:**
+**C. Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Set up environment variables — create a `.env` file:**
+**D. Set up environment variables — create a `.env` file:**
 ```
 PINECONE_API_KEY=your_pinecone_api_key
 GOOGLE_API_KEY=your_google_api_key
 ```
 
-**5. Create Pinecone index and store embeddings:**
+**F. Create Pinecone index and store embeddings:**
 ```bash
 python store_index.py
 ```
 
-**6. Run the app:**
+**G. Run the app:**
 ```bash
 python app.py
 ```
@@ -122,7 +122,7 @@ Open `http://localhost:8080` in your browser.
 
 ---
 
-## CI/CD Pipeline
+## 6. CI/CD PIPELINE
 
 Every push to the `main` branch automatically:
 
@@ -144,7 +144,7 @@ GOOGLE_API_KEY
 
 ---
 
-## Deployment
+## 7. DEPLOYMENT
 
 The app is deployed on **AWS EC2** and accessible at:
 ```
@@ -155,7 +155,7 @@ Docker image is stored in **AWS ECR** (Elastic Container Registry).
 
 ---
 
-## How It Works
+## 8. WORKING
 
 1. Medical PDF is loaded and split into chunks
 2. Chunks are embedded using HuggingFace `all-MiniLM-L6-v2` (384 dimensions)
@@ -168,7 +168,7 @@ Docker image is stored in **AWS ECR** (Elastic Container Registry).
 
 ---
 
-## Dependencies
+## 9. DEPENDENCIES
 
 Key packages used:
 
